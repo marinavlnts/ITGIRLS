@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Опросник</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/3468/3468377.png"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <h1>Опросник для обладателей котиков:</h1>
+
+    <div>
+      <label for="pet's_name">Кличка питомца</label>
+      <input type="text" id="pet's_name" />
+    </div>
+
+    <fieldset>
+      <legend>Информация о владельце</legend>
+      <div>
+        <label for="owner's_name">Имя</label>
+        <input type="text" id="owner's_name" />
+      </div>
+      <div>
+        <label for="contact_information">Контакты</label>
+        <input type="text" id="contact_information" />
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Порода питомца:</legend>
+      <div>
+        <select>
+          <option>бенгальская кошка</option>
+          <option>сфинкс</option>
+          <option>
+            милый комочек шерсти без родословной, подобранный на улице
+          </option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Чем питается?</legend>
+
+      <div>
+        <input type="checkbox" id="dry" name="feed" />
+        <label for="dry">сухой корм</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="wet" name="feed" />
+        <label for="wet">влажный корм</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="natural" name="feed" />
+        <label for="natural">натуральный корм</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Укажите пол питомца:</legend>
+      <div>
+        <input type="radio" name="sex" id="female" />
+        <label for="female"> самка </label> <br />
+        <input type="radio" name="sex" id="male" />
+        <label for="male"> самец </label> <br />
+      </div>
+    </fieldset>
+
+    <div><textarea rows="15">Комментарий владельца</textarea></div>
+
+    <div>
+      <span>Приложить фото питомца (можно выбрать файл с диска)</span
+      ><input type="file" />
+    </div>
+
+    <div><button>Сохранить</button></div>
+  </body>
+</html>
