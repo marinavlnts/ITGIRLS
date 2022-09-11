@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actresses</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/4514/4514934.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <h2>Five famous actresses</h2>
+    <div style="width: 1200px" class="block_1">
+      <a href="https://ru.wikipedia.org/wiki/Ли,_Кайлер">
+        <img
+          src="../assets/images/chyler_leigh.jpeg"
+          alt="Chyler Leigh"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://ru.wikipedia.org/wiki/Уотсон,_Эмма">
+        <img
+          src="../assets/images/emma_watson.webp"
+          alt="Emma Watson"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://ru.wikipedia.org/wiki/Найтли,_Кира">
+        <img
+          src="../assets/images/keira_knightly.jpeg"
+          alt="Keira Knightly"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://ru.wikipedia.org/wiki/Мерлан,_Ноэми">
+        <img
+          src="../assets/images/merlant_noemie.jpeg"
+          alt="Merlant Noemie"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://ru.wikipedia.org/wiki/Уоллер-Бридж,_Фиби">
+        <img
+          src="../assets/images/Phoebe_Waller-Bridge.jpeg"
+          alt="Phoebe Waller Bridge"
+          width="200"
+          height="250"
+      /></a>
+    </div>
+    <h2>Best roles</h2>
+    <div style="width: 1200px" class="block_2">
+      <a href="https://www.kinopoisk.ru/series/880643/">
+        <img
+          src="../assets/images/Supergirl.webp"
+          alt="Supergirl"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://www.kinopoisk.ru/film/322/">
+        <img
+          src="../assets/images/Harry_Potter_and_the_Prisoner_of_Azkaban.jpeg"
+          alt="Harry Potter and the Prisoner of Azkaban"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://www.kinopoisk.ru/film/81733/">
+        <img
+          src="../assets/images/pride_and_prejudice.jpeg"
+          alt="Pride and prejudice"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://www.kinopoisk.ru/film/1169370/">
+        <img
+          src="../assets/images/portrait_de_la_jeune_fille_en_feu.jpeg"
+          alt="Portrait de la jeune fille en feu"
+          width="200"
+          height="250"
+      /></a>
+
+      <a href="https://www.kinopoisk.ru/series/991739/">
+        <img
+          src="../assets/images/fleabag.jpeg"
+          alt="Fleabag"
+          width="200"
+          height="250"
+      /></a>
+    </div>
+    <h2>Movie trailers</h2>
+    <div style="width: 1200px" class="block_3">
+      <video src="../assets/images/Supergirl.mp4" controls width="200"></video>
+      <video
+        src="../assets/images/harry_potter.mp4"
+        controls
+        width="200"
+      ></video>
+      <video
+        src="../assets/images/Pride&Prejudice.mp4"
+        controls
+        width="200"
+      ></video>
+      <video
+        src="../assets/images/portrait_of_a_Lady_on_fire.mp4"
+        controls
+        width="200"
+      ></video>
+      <video src="../assets/images/Fleabag.mp4" controls width="200"></video>
+    </div>
+  </body>
+</html>
